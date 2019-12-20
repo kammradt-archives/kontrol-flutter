@@ -15,7 +15,12 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.teal,
       ),
       body: Center(
-        child: Image.asset('assets/galaxy1.jpg')),
+        child: Icon(
+          Icons.person,
+          color: Colors.teal,
+          size: 100,
+        ),
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Text('yly'),

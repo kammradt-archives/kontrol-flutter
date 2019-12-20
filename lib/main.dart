@@ -14,16 +14,15 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.teal,
       ),
-      body: Center(
-        child: IconButton(
-          icon: Icon(Icons.person),
-          onPressed: () { print('Clicked!'); },
-          color: Colors.teal,
-        )
+      body: Container(
+        padding: EdgeInsets.fromLTRB(10, 20, 30, 40),
+        margin: EdgeInsets.all(10),
+        color: Colors.blueGrey[50],
+        child: Text('Text!'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        child: Text('yly'),
+        child: Icon(Icons.add),
         backgroundColor: Colors.teal,
       ),
     );

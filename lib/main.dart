@@ -15,17 +15,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.teal,
       ),
       body: Center(
-        child: Text(
-          'yoy',
-          style: TextStyle(
-              fontSize: 32,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 2.0,
-              color: Colors.grey[600],
-              fontFamily: 'PTFont'
-          ),
-        ),
-      ),
+        child: Image.asset('assets/galaxy1.jpg')),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Text('yly'),

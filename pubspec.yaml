@@ -20,3 +20,5 @@ flutter:
    - family: PTFont
      fonts:
        - asset: fonts/PTSans-Regular.ttf
+  assets:
+    - assets/
